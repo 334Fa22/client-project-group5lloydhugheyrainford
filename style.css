@@ -2,9 +2,19 @@ footer {
   background-color: #D3D3D3;
 }
 
+.header {
+    background-color: #006747;
+}
+
+img {
+  padding-left: 10px;
+}
+
 h1 {
-  background-color: #006747;
-  text-align: center;
+  text-align: right;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 body{
