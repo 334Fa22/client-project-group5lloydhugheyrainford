@@ -4,27 +4,28 @@ footer {
 
 .header {
     background-color: #006747;
-    height: 100px;
+    height: 150px;
     text-align: right;
-    color: #FFFFF;
+    color: #FFFF;
     padding-bottom: 10px;
     padding-right: 10px;
+    font-size: 60px;
+
 }
 
 img {
   padding-left: 10px;
-  align-content: left; 
+  align-content: left;
 }
 
-
+h1{
   text-align: right;
-  color: #FFFFFF;
+  color: white;
   position: absolute;
   left: 400px;
   bottom: 450px;
   padding-bottom: 10px;
   padding-right: 10px;
-
 }
 
 body{
