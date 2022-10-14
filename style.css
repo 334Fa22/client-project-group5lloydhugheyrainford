@@ -4,7 +4,11 @@ footer {
 
 h1 {
   background-color: #006747;
-  text-align: center;
+  text-align: right;
+  padding: 5px;
+  color: white;
+  font-size: 60px;
+  font-family: "futura";
 }
 
 body{
