@@ -19,6 +19,9 @@ img {
 
   text-align: right;
   color: #FFFFFF;
+  position: absolute;
+  left: 400px;
+  bottom: 450px;
   padding-bottom: 10px;
   padding-right: 10px;
 
