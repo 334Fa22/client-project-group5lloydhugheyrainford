@@ -22,8 +22,6 @@ h1 {
   font-size: 50px;
   text-align: right;
   color: #FFFFFF;
-  padding-top: 15px;
-  padding-bottom: 10px;
   padding-right: 10px;
 }
 
@@ -34,6 +32,7 @@ body {
 
 nav {
   font-size: 20px;
+  background-color: #1c9e4e;
 }
 
 .parent{
