@@ -1,9 +1,91 @@
-.header {
-  padding: 8px;
-  background-color: #006747;
-
+footer {
+  background-color: #D3D3D3;
 }
 
 h1 {
-  color: #FFFFFF;
+  background-color: #006747;
+  text-align: center;
+}
+
+body{
+  background: white;
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent button {
+  background-color: #006747;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 31px;
+  height: 130px;
+  width: 130px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.parent button: active{
+  background-color: #006747;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+
+.parent button:not(:first-child){
+  margin-top: 10px;
+}
+
+.round-1{
+  border-radius: 50%;
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.round-2{
+  border-radius: 50%;
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.round-3{
+  border-radius: 50%;
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.round-4{
+  border-radius: 50%
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.round-5{
+  border-radius: 50%;
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.round-6{
+  border-radius: 50%;
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.round-7{
+  border-radius: 50%;
+  width: calc(30% - 4px);
+  max-width: 960px;
+  margin: 0 auto;
 }
