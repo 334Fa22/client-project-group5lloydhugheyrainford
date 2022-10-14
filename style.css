@@ -2,12 +2,13 @@ footer {
   background-color: #D3D3D3;
 }
 
-.header {
+header {
     background-color: #006747;
+    margin: none;
+    padding: none;
     height: 120px;
     text-align: right;
     font-size: 60px;
-
 }
 
 img {
@@ -29,6 +30,10 @@ h1 {
 body {
 
   background: white;
+}
+
+nav {
+  font-size: 20px;
 }
 
 .parent{
