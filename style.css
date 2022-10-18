@@ -36,6 +36,13 @@ h1 {
   padding-right: 10px;
 }
 
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
+}
+
 body {
   background-image: url('AdminBuilding.jpg');
   image
@@ -52,6 +59,10 @@ footer {
 
 nav {
   font-size: 20px;
+}
+
+.banner-links {
+  
 }
 
 .parent{
