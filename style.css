@@ -8,6 +8,20 @@ header {
     font-size: 60px;
 }
 
+.btn login {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn: hover {background: #eee;}
+  .login {color: green}
+  .help {color: green}
+
 img {
   float: left;
   padding-left: 10px;
@@ -23,9 +37,8 @@ h1 {
 }
 
 body {
-  background: white;
   background-image: url('AdminBuilding.jpg');
-
+  image
 }
 
 footer {
@@ -54,13 +67,14 @@ nav {
   width: 130px;
   box-shadow: 0 2px 4px darkslategray;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 1s ease-in-out;
 }
 
 .parent button: active{
   background-color: #006747;
   box-shadow: 0 0 2px darkslategray;
   transform: translateY(2px);
+  transition: 1s ease-in-out;
 }
 
 .parent button:not(:first-child){
