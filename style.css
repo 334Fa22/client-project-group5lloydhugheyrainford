@@ -41,8 +41,12 @@ body {
   image
 }
 
+<<<<<<< Updated upstream
 footer {
   background-color: #D3D3D3;
+=======
+  background-image: url("");
+>>>>>>> Stashed changes
 }
 
 
@@ -66,8 +70,13 @@ nav {
   height: 130px;
   width: 130px;
   box-shadow: 0 2px 4px darkslategray;
+<<<<<<< Updated upstream
   cursor: pointer;
   transition: all 1s ease-in-out;
+=======
+  cursor: pointer; /*Mouse pointer on hover*/
+  transition: all 0.2s ease;
+>>>>>>> Stashed changes
 }
 
 .parent button: active{
@@ -75,6 +84,11 @@ nav {
   box-shadow: 0 0 2px darkslategray;
   transform: translateY(2px);
   transition: 1s ease-in-out;
+}
+
+/* Darker background on mouse-over */
+.btn:hover{
+  background-color: darkslategrey;
 }
 
 .parent button:not(:first-child){
