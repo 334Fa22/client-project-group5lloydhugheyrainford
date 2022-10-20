@@ -1,26 +1,44 @@
 
-header, h1, img {
-    background-color: #006747;
-    margin: 0;
-    padding: none;
-    height: 120px;
-    text-align: right;
-    font-size: 60px;
+.header{
+  overflow: hidden;
+  background-color: #006747;
+  padding: 20px 10px;
 }
 
-.btn login {
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
+/*Style the Header Links*/
+.header a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
 
-/* On mouse-over */
-.btn: hover {background: #eee;}
-  .login {color: green}
-  .help {color: green}
+/*Style the Logo Link*/
+.header a.logo{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*Change the Background color on mouse over*/
+.header a:hover{
+  background-color: #006747;
+  color: white;
+}
+
+/*Style the Current link*/
+.header a:active{
+  background-color: black;
+  color: white;
+}
+
+/*Float Section to Right*/
+.header-right{
+  float: right;
+}
 
 img {
   float: left;
@@ -29,12 +47,13 @@ img {
 }
 
 h1 {
-  text-align: right;
+  text-align: center;
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 20px;
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 10px;
+  font-family: inherit;
 }
 
 nav {
@@ -87,81 +106,4 @@ nav {
 .textbook {
   background-image: url('client5images/Station.jpg');
 
-}
-
-.parent button {
-  background-color: #006747;
-  border: none;
-  color: white;
-  padding: 5px;
-  font-size: 31px;
-  height: 130px;
-  width: 130px;
-  box-shadow: 0 2px 4px darkslategray;  cursor: pointer; /*Mouse pointer on hover*/
-  transition: all 0.2s ease;
-}
-
-.parent button: active{
-  background-color: #006747;
-  box-shadow: 0 0 2px darkslategray;
-  transform: translateY(2px);
-  transition: 1s ease-in-out;
-}
-
-/* Darker background on mouse-over */
-.btn:hover{
-  background-color: darkslategrey;
-}
-
-.parent button:not(:first-child){
-  margin-top: 10px;
-}
-
-.round-1{
-  border-radius: 50%;
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.round-2{
-  border-radius: 50%;
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.round-3{
-  border-radius: 50%;
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.round-4{
-  border-radius: 50%
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.round-5{
-  border-radius: 50%;
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.round-6{
-  border-radius: 50%;
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.round-7{
-  border-radius: 50%;
-  width: calc(30% - 4px);
-  max-width: 960px;
-  margin: 0 auto;
 }
