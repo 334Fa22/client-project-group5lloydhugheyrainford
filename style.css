@@ -85,8 +85,12 @@ nav {
 }
 
 .textbook {
-  background-image: url('client5images/Station.jpg');
+  background-image: none;
+  /*background-image: url('client5images/Station.jpg')*/;
 
+}
+.openings {
+  background-image: none;
 }
 
 .parent button {
