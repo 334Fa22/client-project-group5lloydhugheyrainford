@@ -2,7 +2,6 @@
 header, h1, img {
     background-color: #006747;
     margin: 0;
-    margin: none;
     padding: none;
     height: 120px;
     text-align: right;
@@ -26,8 +25,7 @@ header, h1, img {
 img {
   float: left;
   padding-left: 10px;
-  padding-top: 10px;
-
+  height: auto;
 }
 
 h1 {
@@ -51,6 +49,7 @@ img {
   margin-top: 10px;
 
 }
+
 
 
 h2 {
