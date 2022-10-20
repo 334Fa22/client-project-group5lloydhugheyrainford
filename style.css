@@ -2,6 +2,32 @@
 header, h1, img {
     background-color: #006747;
     margin: 0;
+    margin: none;
+    padding: none;
+    height: 120px;
+    text-align: right;
+    font-size: 60px;
+}
+
+.btn login {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn: hover {background: #eee;}
+  .login {color: green}
+  .help {color: green}
+
+img {
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+
 }
 
 h1 {
@@ -26,20 +52,30 @@ img {
 
 }
 
-body {
 
-  background-image: url("client5images/AdminBuilding.jpg");
-
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
 }
 
+body {
+  background-image: url('client5images/AdminBuilding.jpg');
+}
 
 footer {
   background-color: #D3D3D3;
+  background-image: url("");
 }
 
 
 nav {
   font-size: 20px;
+}
+
+.banner-links {
+
 }
 
 .parent{
@@ -57,8 +93,7 @@ nav {
   font-size: 31px;
   height: 130px;
   width: 130px;
-  box-shadow: 0 2px 4px darkslategray;
-  cursor: pointer;
+  box-shadow: 0 2px 4px darkslategray;  cursor: pointer; /*Mouse pointer on hover*/
   transition: all 0.2s ease;
 }
 
@@ -66,6 +101,12 @@ nav {
   background-color: #006747;
   box-shadow: 0 0 2px darkslategray;
   transform: translateY(2px);
+  transition: 1s ease-in-out;
+}
+
+/* Darker background on mouse-over */
+.btn:hover{
+  background-color: darkslategrey;
 }
 
 .parent button:not(:first-child){
