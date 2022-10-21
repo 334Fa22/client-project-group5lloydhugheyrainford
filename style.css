@@ -47,11 +47,18 @@
 
 }
 
+/*
 img {
   float: left;
   padding-left: 10px;
   height: auto;
 }
+*/
+
+#homepage {
+  background-image: url("client5images/AdminBuilding.jpg");
+}
+
 
 h1 {
   text-align: center;
@@ -83,11 +90,6 @@ h2 {
   text-align: center;
   color: #000000;
   padding-right: 10px;
-}
-
-#homepage
- {
-  background-image: url('client5images/AdminBuilding.jpg');
 }
 
 footer {

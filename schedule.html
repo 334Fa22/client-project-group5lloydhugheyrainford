@@ -7,26 +7,36 @@
 
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Class Schedule</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-<header>
-  <img src="client5images/Northwest logo.png" alt="Northwest logo" height="90" width="300">
-  <h1> CatPaws
-    <button class="btn login">Login</button>
-    <button class="btn help">Help</button>
-    </h1>
+  <header>
+    <div class="header">
+      <a href="#default" class="logo">Class Schedule</a>
+      <div class="header-right">
+        <a class="active" href="#login">Login</a>
+        <a class="active" href="#help">Help</a>
+
 </header>
 
 
 <main>
-  <section id="select">
-    <h2>Select Term</h2>
-  </section>
+    <h2>Select by Term or Date</h2>
+    <h3>Term</h3>
+      <input type="checkbox" id="fall" value="Fall" name="field">
+      <label for="fall">Fall</label>
+      <input type="checkbox" id="spring" value="Spring" name="field">
+      <label for="fall">Spring</label>
+
+    <h3>Date</h3>
+    <p>Search by Date (mm/dd/yy)<p>
+      <input type="text">
+
+
 
 </main>
 
