@@ -133,3 +133,7 @@ nav {
 .openings{
   background-image: none;
 }
+
+.homepage {
+  background-image: url("client5images/AdmindBuilding.jpg")
+}
