@@ -84,7 +84,6 @@ img {
 }
 
 
-
 h2 {
   font-size: 40px;
   text-align: center;
@@ -94,12 +93,12 @@ h2 {
 
 footer {
   background-color: #D3D3D3;
-  background-image: url("");
 }
 
 
 nav {
   font-size: 20px;
+  background-color: #e3e1e1;
 }
 
 .banner-links {
@@ -121,5 +120,3 @@ nav {
 .openings{
   background-image: none;
 }
-
-/*Style rules for Schedule.html*/
