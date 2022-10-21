@@ -80,6 +80,7 @@ h2 {
 
 body {
   background-image: url('client5images/AdminBuilding.jpg');
+  height: 100%;
 }
 
 footer {
@@ -109,5 +110,5 @@ nav {
 }
 
 .openings{
-  background-image: none; 
+  background-image: none;
 }
