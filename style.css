@@ -90,9 +90,11 @@ body {
   height: 100%;
 }
 
-.bg {
-  /* The image used */
+
+.background {
   background-image: url("client5images/AdminBuilding.jpg");
+}
+
 
   /* Full height */
   height: 100%;
@@ -111,7 +113,6 @@ footer {
 
 nav {
   font-size: 20px;
-  background-color: #e3e1e1;
 }
 
 .banner-links {
@@ -132,8 +133,4 @@ nav {
 
 .openings{
   background-image: none;
-}
-
-.homepage {
-  background-image: url("client5images/AdmindBuilding.jpg")
 }
