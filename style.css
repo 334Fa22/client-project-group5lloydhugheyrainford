@@ -18,7 +18,7 @@
 }
 
 /* On mouse-over */
-.btn: hover {
+.btn:hover {
    {background: #eee;}
   .login {color: green}
   .help {color: green}
@@ -77,13 +77,13 @@ body {
 
 
   /* Full height */
-  height: 100%;
+  /*not working visit later height: 100%;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 .circular-square{
   position: relative;
