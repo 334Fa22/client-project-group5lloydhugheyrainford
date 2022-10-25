@@ -47,14 +47,6 @@
 
 }
 
-
-img {
-  float: left;
-  padding-left: 10px;
-  height: auto;
-}
-
-
 h1 {
   text-align: center;
   color: #FFFFFF;
@@ -71,13 +63,6 @@ nav {
   right: 15px;
   color: #FFFFFF;
 }
-
-img {
-  margin-left: 10px;
-  margin-top: 10px;
-
-}
-
 
 h2 {
   font-size: 40px;
@@ -103,6 +88,18 @@ body {
   background-size: cover;
 }
 
+.circular-square{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-square img{
+  width: 100%;
+  height: auto;
+}
 
 footer {
   background-color: #D3D3D3;
@@ -116,13 +113,6 @@ nav {
 
 .banner-links {
 
-}
-
-.parent{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .textbook {
