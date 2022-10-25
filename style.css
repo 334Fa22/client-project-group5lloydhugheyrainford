@@ -55,11 +55,6 @@ img {
 }
 
 
-#homepage {
-  background-image: url("client5images/AdminBuilding.jpg");
-}
-
-
 h1 {
   text-align: center;
   color: #FFFFFF;
@@ -92,9 +87,22 @@ h2 {
 }
 
 body {
-  background-image: url('client5images/AdminBuilding.jpg');
   height: 100%;
 }
+
+.bg {
+  /* The image used */
+  background-image: url("client5images/AdmindBuilding.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 footer {
   background-color: #D3D3D3;
@@ -124,4 +132,8 @@ nav {
 
 .openings{
   background-image: none;
+}
+
+.homepage {
+  background-image: url("client5images/AdmindBuilding.jpg")
 }
