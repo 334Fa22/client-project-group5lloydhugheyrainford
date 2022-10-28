@@ -19,9 +19,17 @@
 
 /* On mouse-over */
 .btn:hover {
-   {background: #eee;}
-  .login {color: green}
-  .help {color: green}
+
+   background: #eee;
+ }
+  .login {
+    color: green;
+     float:right;
+   }
+  .help {
+    color: green;
+     float: right;
+   }
 
 .header a.logo{
   font-size: 25px;
@@ -44,7 +52,6 @@
 /*Float Section to Right*/
 .header-right{
   float: right;
-
 }
 
 h1 {
@@ -342,12 +349,11 @@ nav {
 }
 
 .banner-links {
-
 }
 
 .textbook {
   background-image: none;
-  /*background-image: url('client5images/Station.jpg')*/;
+  /*background-image: url('client5images/Station.jpg');*/
 }
 
 .openings{
