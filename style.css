@@ -21,11 +21,18 @@
 
 /* On mouse-over*/
 .btn:hover {
-   {background: #eee;}
-  .login {color: green; float:right;}
-  .help {color: green; float: right;}
 
-/*Style the Logo Link*/
+   background: #eee;
+ }
+  .login {
+    color: green;
+     float:right;
+   }
+  .help {
+    color: green;
+     float: right;
+   }
+
 .header a.logo{
   font-size: 25px;
   font-weight: bold;
@@ -47,7 +54,14 @@
 /*Float Section to Right*/
 .header-right{
   float: right;
+}
 
+html {
+background: url("client5images/AdminBuilding.jpg") no-repeat center center fixed;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
@@ -78,6 +92,17 @@ body {
   height: 100%;
 }
 
+.grid-center{
+  grid-area:center;
+  position: relative;
+  bottom: 10px;
+  margin-top: 16px;
+}
+
+.grid div{
+  box-shadow: 50px black;
+}
+
 
   /* Full height */
   /*not working visit later*/
@@ -89,174 +114,6 @@ body {
 }
 
 
-.circular-square1{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square1 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square2{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square2 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square3{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square3 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square4{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square4 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square6{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square6 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square7{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square7 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square8{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square8 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square9{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square9 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square11{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square11 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square12{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square12 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square13{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square13 img{
-  width: 150%;
-  height: 100%;
-}
-
-.circular-square14{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  display: align;
-}
-
-.circular-square14 img{
-  width: 150%;
-  height: 100%;
-}
-
 footer {
   position: absolute;
    bottom: 0;
@@ -267,6 +124,22 @@ footer {
    width: 100vw;
    padding-top: 40px;
    color: #fff;
+}
+
+#page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap{
+  padding-bottom: 2.5rem;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 .footer-content{
@@ -348,12 +221,11 @@ nav {
 }
 
 .banner-links {
-
 }
 
 .textbook {
   background-image: none;
-  /*background-image: url('client5images/Station.jpg')*/;
+  /*background-image: url('client5images/Station.jpg');*/
 }
 
 .openings{

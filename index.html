@@ -4,10 +4,10 @@
 
 
 <html lang="en">
+<link rel="stylesheet" href="style.css">
 <head>
   <title>Cat Paws</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -25,7 +25,7 @@
 
       </header>
 
- 
+
 <main>
 
 <div class= "circular-square1"> <img src="client5images/green icon.png" alt="icon"></div>
@@ -33,18 +33,70 @@
 <div class= "circular-square3"> <img src="client5images/green icon.png" alt="icon3"></div>
 <div class= "circular-square4"> <img src="client5images/green icon.png" alt="icon4"></div>
 
-<div class= "circular-square6"> <img src="client5images/green icon.png" alt="icon6"></div>
-<div class= "circular-square7"> <img src="client5images/green icon.png" alt="icon7"></div>
-<div class= "circular-square8"> <img src="client5images/green icon.png" alt="icon8"></div>
-<div class= "circular-square9"> <img src="client5images/green icon.png" alt="icon9"></div>
+  <style>
+     #grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+       grid-gap: 10px;
+     }
+     #grid > div {
+       font-size: 16px;
+       padding: 1em;
+       color: #ffffff;
+       background: #006747;
+       text-align: center;
+       border-radius:50%;
+       width: 100px;
+       height: 100px;
+       box-shadow: 50px black;
+     }
+   </style>
 
-<div class= "circular-square11"> <img src="client5images/green icon.png" alt="icon11"></div>
-<div class= "circular-square12"> <img src="client5images/green icon.png" alt="icon12"></div>
-<div class= "circular-square13"> <img src="client5images/green icon.png" alt="icon13"></div>
-<div class= "circular-square14"> <img src="client5images/green icon.png" alt="icon14"></div>
+<div class="grid-center"</div>
+
+   <div id="grid">
+   <div>Login</div>
+   <div>Apply for Admissions</div>
+   <div>Check Application Status <a href="appstatus.html"></a></div>
+   <div>Apply for Housing</div>
+   <div>Forgot Password?</div>
+   <div>Class Schedule in Detail</div>
+   <div>Class Openings At-A-Glance</div>
+   <div>Online Class Openings</div>
+   <div>Transfer Equivalencies</div>
+   <div>Textbook Information</div>
+   <div>Account Payment Center</div>
+   <div>Accessibility Mode</div>
+ </div>
 
 </main>
 
+<div id="page-container">
+  <div id="content-wrap">
+
+<!--all other page content-->
+</div>
+  <footer>
+    <div class="footer-content">
+      <h3>Cat Paws</h3>
+    <div class="copyright">
+			<p>&copy; Copyright 2022. All Rights Reserved.</p>
+      <p> This website was made for educational purposes. </p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>copyright &copy;2022 <a href="#">Northwest Missouri State University: Cat Paws</a> </p>
+    </div>
+
+    <div class="footer-menu">
+ <ul class="f-menu">
+    <li><a href="">Home</a></li>
+    <li><a href="">Login</a></li>
+    <li><a href="">Help</a></li>
+ </ul>
+</div>
+
+  </footer>
 </body>
 
 </html>
