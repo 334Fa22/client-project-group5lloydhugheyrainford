@@ -20,10 +20,9 @@
 /* On mouse-over */
 .btn:hover {
    {background: #eee;}
-  .login {color: green; float:right;}
-  .help {color: green; float: right;}
+  .login {color: green}
+  .help {color: green}
 
-/*Style the Logo Link*/
 .header a.logo{
   font-size: 25px;
   font-weight: bold;
