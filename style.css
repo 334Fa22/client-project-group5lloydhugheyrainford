@@ -54,6 +54,14 @@
   float: right;
 }
 
+html {
+background: url("client5images/AdminBuilding.jpg") no-repeat center center fixed;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}
+
 h1 {
   text-align: center;
   color: #FFFFFF;
@@ -84,6 +92,13 @@ body {
 
 .grid-center{
   grid-area:center;
+  position: relative;
+  bottom: 10px;
+  margin-top: 16px;
+}
+
+.grid div{
+  box-shadow: 50px black;
 }
 
 
