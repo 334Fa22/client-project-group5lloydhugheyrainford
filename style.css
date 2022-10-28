@@ -1,11 +1,13 @@
 
+
+
 .header{
   overflow: hidden;
   background-color: #006747;
   padding: 20px 10px;
 }
 
-/*Style the Header Links*/
+/*Style the Header Links
 .header a{
   float: left;
   color: white;
@@ -17,7 +19,7 @@
   border-radius: 4px;
 }
 
-/* On mouse-over */
+/* On mouse-over*/
 .btn:hover {
    {background: #eee;}
   .login {color: green; float:right;}
@@ -78,13 +80,14 @@ body {
 
 
   /* Full height */
-  /*not working visit later height: 100%;
-
-  /* Center and scale the image nicely */
-  /*background-position: center;
+  /*not working visit later*/
+   height: 100%;
+  Center and scale the image nicely
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}*/
+}
+
 
 .circular-square1{
   position: relative;
@@ -253,6 +256,7 @@ body {
   width: 150%;
   height: 100%;
 }
+
 footer {
   position: absolute;
    bottom: 0;
@@ -327,6 +331,7 @@ display: block;
 .footer-menu ul li a:hover{
   color: #27bcda;
 }
+
 
 
 @media (max-width:500px) {
