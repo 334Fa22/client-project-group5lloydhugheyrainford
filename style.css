@@ -82,6 +82,10 @@ body {
   height: 100%;
 }
 
+.grid-center{
+  grid-area:center;
+}
+
 
   /* Full height */
   /*not working visit later height: 100%;
