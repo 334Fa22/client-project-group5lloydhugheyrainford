@@ -29,6 +29,11 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
 nav a {
   width: 100px;
   display: block;
@@ -56,4 +61,8 @@ nav a:hover {
 
 p {
 margin-left: 10px;
+}
+
+.required {
+  color: red;
 }
