@@ -57,6 +57,10 @@ nav a:hover {
   text-transform: uppercase;
 }
 
+.required {
+  color: red;
+}
+
 .grid-center{
   grid-area: center;
   position: relative;
