@@ -57,6 +57,38 @@ nav a:hover {
   text-transform: uppercase;
 }
 
+.grid-center{
+  grid-area: center;
+  position: relative;
+  bottom: 10px;
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 1px;
+  text-align: middle;
+  text-decoration-color: white;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:active{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.grid div{
+  box-shadow: 50px black;
+  text-align: center;
+  color: white;
+}
+
 #footer {
   background: gray;
   color: white;
