@@ -63,6 +63,14 @@ nav a:hover {
   color: red;
 }
 
+.textbooks {
+  background-image: none;
+}
+
+.openings {
+  background-image: none;
+}
+
 .grid-center{
   grid-area: center;
   position: relative;
