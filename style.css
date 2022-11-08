@@ -73,6 +73,16 @@ nav a:hover {
   color: red;
 }
 
+.textbooks {
+  background-image: none;
+  background: white;
+}
+
+.openings {
+  background-image: none;
+  background: white;
+}
+
 /*.grid-center{
   grid-area: center;
   position: relative;
@@ -138,6 +148,33 @@ footer {
 
 p {
 margin-left: 10px;
+}
+
+
+/*media query for LAPTOP */
+@media screen and (min-width: 1024px) and (max-height: 768px) {
+
+  #grid {
+    display: grid;
+    grid: auto / auto auto auto auto;
+    grid-gap: 10px;
+    width: 50%;
+    margin: auto;
+    background-size: auto;
+  }
+
+  #grid>div{
+    font-size: 16px;
+    padding: 1em;
+    color: #ffffff;
+    background: #006747;
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+
 }
 
 
