@@ -5,6 +5,7 @@ File Name: styles.css
 body {
   margin: 0;
   padding: 0;
+  background: #006747
 }
 
 nav {
@@ -15,7 +16,10 @@ nav {
 
 main {
   background-image: url("client5images/AdminBuilding.jpg");
-  width: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
 
 
   /*display: inline-block; */
@@ -66,7 +70,7 @@ nav a:hover {
   color: red;
 }
 
-.grid-center{
+/*.grid-center{
   grid-area: center;
   position: relative;
   bottom: 10px;
@@ -75,8 +79,28 @@ nav a:hover {
   margin-right: 1px;
   text-align: middle;
   text-decoration-color: white;
+}*/
+
+#grid {
+  display: grid;
+  grid: auto / auto auto auto auto;
+  grid-gap: 10px;
+  width: 50%;
+  margin: auto;
+  background-size: auto;
 }
 
+#grid>div{
+  font-size: 16px;
+  padding: 1em;
+  color: #ffffff;
+  background: #006747;
+  text-align: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
 a:link{
   color: white;
   text-decoration: none;
@@ -92,25 +116,20 @@ a:visited{
   text-decoration: none;
 }
 
-.grid div{
+/*.grid div{
   box-shadow: 50px black;
   text-align: center;
   color: white;
-}
+}*/
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   background: #373737;
   color: white;
   width: 100%;
   height: 3rem;
-
-
-  overflow: auto;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  height: auto
 
 }
 
