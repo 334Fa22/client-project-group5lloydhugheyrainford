@@ -30,12 +30,14 @@
       <fieldset>
         <label for="terms">*Select term:</label>
         <select id="terms" name="terms" required="">
+          <option value="">Select term</option>
           <option value="Fall">Fall</option>
           <option value="Spring">Spring</option>
         </select>
         <div>
           <label for="departments">*Select department:</label>
           <select id="departments" name="departments" required="">
+            <option value="">Select department</option>
             <option value="All">All</option>
             <option value="Accounting">Accounting</option>
             <option value="Agriculture">Agriculture</option>
@@ -108,6 +110,7 @@
                   </select>
                   <div>
                       <label for="CourseType">Select Course Type:</label>
+                      <input id="CourseType">
                       <select id="coursetype" name="course type">
                         <option value="All">All</option>
                         <option value="Blended Course">Blended Course</option>
@@ -134,7 +137,7 @@
             </fieldset>
             <p>Search by Course Number only- Other critera ignored.</p>
             <fieldset>
-              <label for="CourseNumber">Course Number(5 digits):</label>
+              <label for="coursenumber">Course Number(5 digits):</label>
 						  <input type="text" name="course Number" id="coursenumber">
             </fieldset>
             <input type="submit" id="submit" value="Submit" class="btn">
