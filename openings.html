@@ -7,7 +7,7 @@
 </head>
 
 
-<body class= "openings">
+<body>
 <header>
   <div class="logo"><h1>Catpaws</h1>
   </div>
@@ -20,7 +20,7 @@
   </nav>
 
 </header>
-<main>
+<main class="openings">
   <h2>Northwest Class Openings</h2>
   <div id="form">
     <form class="form-dropdown">
@@ -28,12 +28,14 @@
       <fieldset>
         <label for="terms">*Select term:</label>
         <select id="terms" name="terms" required="">
+          <option value="">Select term</option>
           <option value="Fall">Fall</option>
           <option value="Spring">Spring</option>
         </select>
           <div>
         <label for="departments">*Select department:</label>
         <select id="departments" name="departments" required="">
+          <option value="">Select department</option>
           <option value="All">All</option>
           <option value="Accounting">Accounting</option>
           <option value="Agriculture">Agriculture</option>
