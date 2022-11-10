@@ -25,6 +25,7 @@ main {
   margin-top: 16px;
 
 
+
   /*display: inline-block; */
   background-size:
 
@@ -64,7 +65,7 @@ nav a {
 }
 
 nav a:hover {
-  background: gray;
+  background: #373737;
   transition: 0.5s;
   text-transform: uppercase;
 }
