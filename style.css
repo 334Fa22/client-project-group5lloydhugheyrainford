@@ -25,7 +25,6 @@ main {
   margin-top: 16px;
 
 
-
   /*display: inline-block; */
   background-size:
 
@@ -65,7 +64,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #373737;
+  background: gray;
   transition: 0.5s;
   text-transform: uppercase;
 }
@@ -208,7 +207,7 @@ margin-left: 10px;
 
   #grid {
     display: grid;
-    grid: auto;
+    grid: auto / auto auto auto auto;
     grid-gap: 10px;
     width: 50%;
     margin: auto;
