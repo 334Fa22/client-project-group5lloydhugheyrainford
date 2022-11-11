@@ -203,8 +203,12 @@ margin-left: 10px;
 
 
 /*media query mobile*/
-@media only screen and (min-width: 600px){
 @media only screen and (min-width: 320px) and (max-width: 480px){
+
+  main {
+    background-image: none;
+    padding-bottom: 100px;
+  }
 
   h1 {
     position: absolute;
@@ -230,6 +234,7 @@ margin-left: 10px;
 
 
   nav {
+    font-size: 1em;
     width: 100%;
     background: #006747;
     overflow: auto;
@@ -246,13 +251,13 @@ margin-left: 10px;
   }
 
   footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     background: #373737;
     color: white;
     width: 100%;
-    height: 3rem;
+    height: 2.5rem;
   }
 
 
