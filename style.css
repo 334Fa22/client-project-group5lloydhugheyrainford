@@ -88,6 +88,10 @@ nav a:hover {
   background: white;
 }
 
+.schedule {
+  background-image: none;
+  background: white;
+}
 
 /*.grid-center{
   grid-area: center;
