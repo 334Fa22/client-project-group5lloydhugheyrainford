@@ -28,7 +28,7 @@ main {
   /*display: inline-block; */
   background-size:
 
-  background-repeat: no-repeat;
+  ;background-repeat: no-repeat;
 }
 
 ul {
@@ -195,7 +195,7 @@ margin-left: 10px;
     /*display: inline-block; */
     background-size:
 
-    background-repeat: no-repeat;
+    ;background-repeat: no-repeat;
   }
 
 
