@@ -28,7 +28,7 @@ main {
   /*display: inline-block; */
   background-size:
 
-  background-repeat: no-repeat;
+  ;background-repeat: no-repeat;
 }
 
 ul {
@@ -140,6 +140,11 @@ a:visited{
   text-decoration: none;
 }
 
+a.class2 {color: blue;}
+a.class2:link {text-decoration: none; color: blue;}
+a.class2:visited {text-decoration: none; color: blue;}
+a.class2:hover {text-decoration: underline; color: #006747;}
+a.class2:active {text-decoration: none; color: blue;}
 /*.grid div{
   box-shadow: 50px black;
   text-align: center;
@@ -201,7 +206,7 @@ margin-left: 10px;
     /*display: inline-block; */
     background-size:
 
-    background-repeat: no-repeat;
+    ;background-repeat: no-repeat;
   }
 
 
