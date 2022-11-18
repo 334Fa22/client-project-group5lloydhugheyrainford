@@ -53,6 +53,7 @@ h2 {
   padding-left: 5px;
 }
 
+
 nav a {
   width: 100px;
   display: block;
@@ -85,7 +86,7 @@ nav a:hover {
 
 .appstatus {
   background-image: none;
-  background: white;
+  background: #ebebeb;
 }
 
 .schedule {
