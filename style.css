@@ -86,7 +86,7 @@ nav a:hover {
 
 .appstatus {
   background-image: none;
-  background: #ebebeb;
+  background: white;
 }
 
 .schedule {
@@ -145,6 +145,8 @@ a.class2:link {text-decoration: none; color: blue;}
 a.class2:visited {text-decoration: none; color: blue;}
 a.class2:hover {text-decoration: underline; color: #006747;}
 a.class2:active {text-decoration: none; color: blue;}
+a.class3 {color: #006747;}
+a.class3:hover
 /*.grid div{
   box-shadow: 50px black;
   text-align: center;
